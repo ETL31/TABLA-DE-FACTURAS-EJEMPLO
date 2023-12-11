@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="content/css/factura.css">
+    <title>Lista de Facturas</title>
+</head>
+<body>
+    <div class="Contorno">
+        <h1>Lista de Facturas</h1>
+        <div id="filtros">
+            <label for="fechaInicio">Fecha de Inicio:</label>
+            <input type="date" id="fechaInicio">
+
+            <label for="fechaFin">Fecha de Término:</label>
+            <input type="date" id="fechaFin">
+
+            <label for="filtro">Filtro: </label>
+            <input type="text" id="filtro">
+
+            <button id="filtrarButton">Filtrar</button>
+        </div>
+
+        <table id="tablaFacturas">
+            <tr>
+                <th>Fecha</th>
+                <th>Descripción</th>
+                <th>Monto</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="content/js/factura.js"></script>
+</body>
+</html>
