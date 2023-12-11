@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.Contorno {
+    background-color: #eee5d9f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+    width: 800px;
+}
+
+#filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#filtros label, #filtros input, #filtros button {
+    margin-bottom: 10px;
+}
+
+#tablaFacturas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#tablaFacturas th, #tablaFacturas td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#tablaFacturas th {
+    background-color: #007bff;
+    color: #fff;
+}
